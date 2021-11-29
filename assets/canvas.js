@@ -80,7 +80,31 @@ TweenLite.delayedCall(0.2, function() {
   }
 });
 }
-runGsap();
+function addMyIntroduction() {
+  var myPackageJson = `
+    {
+      "name" : "David Lee",
+      "version" : "1.0",
+      "Age" : "27",
+      "description" : "Full-stack Software Engineer",
+      "dependencies" : {
+        "Dog" : "*",
+        "Coffee" : "Black",
+        "Vodka" : "*"
+      },
+      "devDependencies" : {
+        "All-In-One PC 32 inch" : "View Paker", 
+        "WebStorm, Visual Studio Code" : "*",
+        "Javascript, ReactJS, VueJS, Web3.js, ..." : "*",
+        "Google, Stack Overflow": "*"
+      }	 
+    }
+    `;
+
+    $('.quote-packagejson').html(myPackageJson);
+}
+// runGsap();
+addMyIntroduction();
 floatySpace();
 $(window).resize(function () {
   space.removeAll();
