@@ -85,7 +85,7 @@ function addMyIntroduction() {
     {
       "name" : "David Lee",
       "version" : "1.0",
-      "Age" : "27",
+      "Age" : "28",
       "description" : "Full-stack Software Engineer",
       "dependencies" : {
         "Dog" : "*",
@@ -94,9 +94,9 @@ function addMyIntroduction() {
       },
       "devDependencies" : {
         "All-In-One PC 32 inch" : "View Paker", 
-        "WebStorm, Visual Studio Code" : "*",
-        "Javascript, ReactJS, VueJS, Web3.js, ..." : "*",
-        "Google, Stack Overflow": "*"
+        "VSCode & VSCode Extensions" : "*",
+        "Javascript, ReactJS, VueJS, Nest.js, ..." : "*",
+        "Google, Stack Overflow, Github": "*"
       }	 
     }
     `;
@@ -111,3 +111,4 @@ $(window).resize(function () {
   $('canvas').remove();
   floatySpace();
 });
+
